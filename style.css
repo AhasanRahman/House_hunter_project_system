@@ -7,47 +7,78 @@ body {
 .main {
     
     width: 100vw;
-    height:4370px;
+    height:auto;
     font-family: 'Lexend', sans-serif;
     margin: 0 auto;
 }
 .topeffect{
     position: absolute;
-     margin-top:-10px;
-    margin-left: 120px;
+     margin-top:-20px;
+    margin-left: 0px;
     opacity: 80%;
     
 }
 .topeffect2{
     position: absolute;
-    margin-left: 170px;
+    margin-left: 10px;
     opacity: 80%;
 }
-nav img {
-    width: 100px;
-    height: 34px;
-    margin-top: 60px;
-    margin-left: 350px;
+nav{
+    
+    margin-top: 40px;
+    height: 46px;
+    width: 1400px;
+    margin-left: 320px;
+    position: absolute;
+
+}
+nav span{
+    display: flex;
+}
+    
+
+nav span img {
+
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+    margin-right: 10px;
     
 }
-
-nav {
-    display: flex;
-    height: 46px;
-    justify-content: center;
+nav span p{
+    
+    width: 67px;
+    height: 20px;
+    margin-top: px;
+    margin-bottom: px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1B1C57;
+    font-family: 'lexend';
 
 }
 
-.navdiv {
+nav ul  {
+    display: flex;
+    justify-content:flex-end ;
+    margin-top: -38px;
+    
+
+}
+.headersection{
+    display: flex;
+}
+
+.firstdiv {
     display: flex;
     width: 720px;
     height: 720px; 
-    margin-left: 770px;
-    /* border-radius: 0px, 0px, 0px, 80px; */
+    margin-left: 150px;
     background-image: url('image/image6.png');
     
 }
-.navdiv .minidiv{
+ 
+.firstdiv .minidiv{
     width: 300px;
     height: 104px;
     background-color:#FFFFFF ;
@@ -61,8 +92,6 @@ nav {
     height: 32px;
     margin-left: 5px;
     margin-top: 25px;
-    display: ;
-    
 
 
 }
@@ -112,34 +141,36 @@ nav {
 }
 .minidiv3{
     height:104px;
-    width:150px ;
+    width:160px ;
+    margin-top: 570px;
+    border-radius: 32px;
+    margin-left: 20px;
     background-color: white;
 }
  
 
-.navdiv2 {
-
-    width: 486px;
+.seconddiv {
+    width: 750px;
     height: 446px;
-    margin-top: 150px;
-    margin-left: 350px ;
+    margin-top: 50px;
+    margin-left: 320px ;
     
 }
 
-.navdiv .img1 {
+.firstdiv .img1 {
 margin-top: 140px;
-margin-left: -525px;
+margin-left: 80px;
 width:66px ;
 height:91px; 
 }
 
-.navdiv .img2{
+.firstdiv .img2{
 width:39px ;
 height:97px;
 margin-top: 205px;
 margin-left: 410px;
 }
-.navdiv .img3{
+.firstdiv .img3{
 width: 42px;
 height: 75px;
 margin-top: 410px;
@@ -149,52 +180,49 @@ margin-left: -25px;
 
 nav ul li {
     list-style: none;
-    display: inline-block;
     width: Hug (96px);
     height: Hug (34px);
     padding: 8px, 16px, 8px, 16px;
     border-radius: 32px;
-    border: 1px;
-    gap: 10px
+    gap: 10px;
+    margin-left: 15px;
+    
 }
 
-nav ul li a {
+.link a {
     text-decoration: none;
-    padding: 10px;
-    margin-left: 60px;
     width: 46px;
     height: 18px;
     font-weight: 600px;
     font-size: 14px;
     line-height: 17px;
-    color: #F0F3FD;
-
-
+    color:white ;
     padding: 8px 16px;
-    align-items: flex-start;
     border-radius: 32px;
     border: 1px solid rgba(255, 255, 255, 0.30);
     background: rgba(255, 255, 255, 0.10);
 
 }
 
-#btn {
-    width: 90px;
-    height: 40px;
+.signupbtn a {
+    list-style: none;
+    width: Hug (96px);
+    height: Hug (34px);
+    padding: 12px 24px;
     border-radius: 32px;
-    margin-top: 40px;
-    padding: 12px, 24px, 12px, 24px;
+    gap: 10px;
+    margin-top: -5px;
     background: #D1FAE5;
-    margin-left: 15px;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 600;
     color: #047857;
-    border: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    font-weight: 600px;
+    
 
 }
 
-.navdiv2 h2 {
+.seconddiv h2 {
     height: 150px;
     width: 420px;
     font-weight: 600px;
@@ -205,7 +233,7 @@ nav ul li a {
 
 }
 
-.navdiv2 p {
+.seconddiv p {
     width: 470px;
     height: 65px;
     opacity: 75%;
@@ -251,7 +279,7 @@ nav ul li a {
     color: white;
 }
 
-.navdiv2 h6 {
+.seconddiv h6 {
     width: 150px;
     height: 10px;
     font-weight: 400px;
@@ -260,7 +288,7 @@ nav ul li a {
     color: #888B97;
 }
 
-.navdiv2 img {
+.seconddiv img {
    
     padding: 15px;
 }
@@ -269,7 +297,7 @@ nav ul li a {
 
 .section_one {
     
-    margin-top:200px;
+    margin-top:100px;
 }
 
 .section_one p {
@@ -424,12 +452,12 @@ nav ul li a {
     justify-content: center;
     height: 520px;
     margin-top: 180px;
-    column-gap: 60px;
+    column-gap: 40px;
 }
 
 .section-two .div-one {
     height: 580px;
-    width: 500px;
+    width: 600px;
  display: inline-block;
  margin-right: 30px;
 
@@ -524,9 +552,7 @@ nav ul li a {
     color: #888B97;
     margin-left: 20px;
 }
-.callbtn{
-
-}
+ 
  .btndiv{
     margin-top: 30px;
     width: 163px;
@@ -585,7 +611,7 @@ nav ul li a {
 }
 .redeffect{
     position: absolute;
-    margin-left: 900px;
+    margin-left: 1350px;
     margin-top: -230px;
     opacity: 70%;
 }
@@ -596,9 +622,7 @@ nav ul li a {
     margin-top: 50px;
    
 }
-.section-three .review1{
-  
-}
+ 
 
 .section-three .ptitle{
     height: 18px;
@@ -662,7 +686,7 @@ color: #1B1C57;
     justify-content: space-between;
 }
 
-.namedesignation {}
+ 
 
 .profilespan  {
     display: flex;
@@ -771,10 +795,7 @@ color: #1B1C57;
     margin-left: -180px;
 }
 .biospan label{
-    /* width: 292px;
-    height: 22px;
-    font-weight: 400;
-    */
+  
     font-size: 14px;
     margin-left: 10px;
     color: #3C4563;
@@ -829,13 +850,13 @@ color: #1B1C57;
 width: 438px;
 height: 494px;
 margin-top: -100px;
-margin-left: -170px;
+margin-left: -350px;
 opacity: 80%;
 }
 .middleeffect2{
     position: absolute;
     margin-top: 50px;
-    margin-left: -170px;
+    margin-left: -350px;
     opacity: 70%;;
 }
 
@@ -934,13 +955,15 @@ border: none;
     margin-right: 60px;
 }
 /* **************footer*********** */
+ 
 .divfooter{
     display: flex;
-    width: 100%;
+    width:1200px ;
     height: 230px;
     margin-bottom: 0px;
-    margin-left: 370px;
     font-family: 'lexend';
+    margin-top: 70px;
+    margin: 100px auto;
    
 }
 
@@ -983,12 +1006,13 @@ border: none;
 }
 .bottomeffect1{
     position: absolute;
-    margin-left: 550px;
+    margin-left: 810px;
+    float: right;
     margin-top: -110px;
 
 }
 .bottomeffect2{
     position: absolute;
-    margin-left:900px ;
+    margin-left:1140px ;
     margin-top: -170px;
 }
