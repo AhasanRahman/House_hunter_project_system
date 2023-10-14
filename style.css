@@ -5,26 +5,29 @@ body {
 }
 
 .main {
-    
+
     width: 100vw;
-    height:auto;
+    height: auto;
     font-family: 'Lexend', sans-serif;
     margin: 0 auto;
 }
-.topeffect{
+
+.topeffect {
     position: absolute;
-     margin-top:-20px;
+    margin-top: -20px;
     margin-left: 0px;
     opacity: 80%;
-    
+
 }
-.topeffect2{
+
+.topeffect2 {
     position: absolute;
     margin-left: 10px;
     opacity: 80%;
 }
-nav{
-    
+
+nav {
+
     margin-top: 40px;
     height: 46px;
     width: 1400px;
@@ -32,10 +35,11 @@ nav{
     position: absolute;
 
 }
-nav span{
+
+nav span {
     display: flex;
 }
-    
+
 
 nav span img {
 
@@ -43,10 +47,11 @@ nav span img {
     height: 36px;
     margin-top: 10px;
     margin-right: 10px;
-    
+
 }
-nav span p{
-    
+
+nav span p {
+
     width: 67px;
     height: 20px;
     margin-top: px;
@@ -58,36 +63,38 @@ nav span p{
 
 }
 
-nav ul  {
+nav ul {
     display: flex;
-    justify-content:flex-end ;
+    justify-content: flex-end;
     margin-top: -38px;
-    
+
 
 }
-.headersection{
+
+.headersection {
     display: flex;
 }
 
 .firstdiv {
     display: flex;
     width: 720px;
-    height: 720px; 
+    height: 720px;
     margin-left: 150px;
     background-image: url('image/image6.png');
-    
+
 }
- 
-.firstdiv .minidiv{
+
+.firstdiv .minidiv {
     width: 300px;
     height: 104px;
-    background-color:#FFFFFF ;
+    background-color: #FFFFFF;
     border-radius: 32px;
     margin-top: 570px;
     margin-left: -580px;
- 
+
 }
- .minidiv img{
+
+.minidiv img {
     width: 32px;
     height: 32px;
     margin-left: 5px;
@@ -95,86 +102,94 @@ nav ul  {
 
 
 }
-.minidiv h4{
+
+.minidiv h4 {
     height: 7px;
     font-size: 14px;
     margin-left: 150px;
     margin-top: -28px;
     color: #1B1C57;
-    
-}
-.minidiv p{
- height:px;
- width: 170px;
- font-size: 12px;
- margin-left: 130px;
- color: #626687;
 
 }
-.minidiv2{
+
+.minidiv p {
+    height: px;
+    width: 170px;
+    font-size: 12px;
+    margin-left: 130px;
+    color: #626687;
+
+}
+
+.minidiv2 {
     width: 200px;
     height: 104px;
     border-radius: 32px;
     background-color: white;
     margin-top: 570px;
-   margin-left: 20px;
+    margin-left: 20px;
 }
-.minidiv2 img{
+
+.minidiv2 img {
     position: absolute;
     margin-left: 10px;
     height: 56px;
     width: 56px;
     margin-top: 25px;
 }
-.minidiv2 h4{
+
+.minidiv2 h4 {
     height: 7px;
     font-size: 14px;
     margin-left: 80px;
     margin-top: 28px;
     color: #1B1C57;
-    
+
 }
-.minidiv2 p{
+
+.minidiv2 p {
     margin-left: 80px;
     font-size: 12px;
     color: #626687;
 }
-.minidiv3{
-    height:104px;
-    width:160px ;
+
+.minidiv3 {
+    height: 104px;
+    width: 160px;
     margin-top: 570px;
     border-radius: 32px;
     margin-left: 20px;
     background-color: white;
 }
- 
+
 
 .seconddiv {
     width: 750px;
     height: 446px;
     margin-top: 50px;
-    margin-left: 320px ;
-    
+    margin-left: 320px;
+
 }
 
 .firstdiv .img1 {
-margin-top: 140px;
-margin-left: 80px;
-width:66px ;
-height:91px; 
+    margin-top: 140px;
+    margin-left: 80px;
+    width: 66px;
+    height: 91px;
 }
 
-.firstdiv .img2{
-width:39px ;
-height:97px;
-margin-top: 205px;
-margin-left: 410px;
+.firstdiv .img2 {
+    width: 39px;
+    height: 97px;
+    margin-top: 205px;
+    margin-left: 410px;
 }
-.firstdiv .img3{
-width: 42px;
-height: 75px;
-margin-top: 410px;
-margin-left: -25px;
+
+.firstdiv .img3 {
+    width: 42px;
+    height: 75px;
+    margin-top: 410px;
+    margin-left: -25px;
 
 }
 
@@ -186,7 +201,7 @@ nav ul li {
     border-radius: 32px;
     gap: 10px;
     margin-left: 15px;
-    
+
 }
 
 .link a {
@@ -196,7 +211,7 @@ nav ul li {
     font-weight: 600px;
     font-size: 14px;
     line-height: 17px;
-    color:white ;
+    color: white;
     padding: 8px 16px;
     border-radius: 32px;
     border: 1px solid rgba(255, 255, 255, 0.30);
@@ -218,7 +233,7 @@ nav ul li {
     line-height: 17px;
     text-decoration: none;
     font-weight: 600px;
-    
+
 
 }
 
@@ -242,19 +257,21 @@ nav ul li {
     font-weight: 400;
     color: #626687;
 }
-.locsearch{
+
+.locsearch {
     width: 460px;
     height: 54px;
     border-radius: 32px;
-    border:1px solid #E0E3EB;
+    border: 1px solid #E0E3EB;
 }
-.locsearch i{
+
+.locsearch i {
     margin-left: 20px;
     color: #F59E0B;
 }
 
 .locsearch input[type=text] {
-    width:260px;
+    width: 260px;
     height: 20px;
     font-weight: 500;
     color: #888B97;
@@ -265,7 +282,8 @@ nav ul li {
     border: none;
 
 }
-.spanchild{
+
+.spanchild {
     width: 119px;
     height: 48px;
     padding: 15px;
@@ -275,7 +293,8 @@ nav ul li {
     color: white;
 
 }
-.spanchild i{
+
+.spanchild i {
     color: white;
 }
 
@@ -289,15 +308,15 @@ nav ul li {
 }
 
 .seconddiv img {
-   
+
     padding: 15px;
 }
 
 /* ************section one *********** */
 
 .section_one {
-    
-    margin-top:100px;
+
+    margin-top: 100px;
 }
 
 .section_one p {
@@ -318,7 +337,7 @@ nav ul li {
     font-size: 32px;
     line-height: 40px;
     color: #1B1C57;
-    font-family:'lexend';
+    font-family: 'lexend';
 }
 
 .section_one ul {
@@ -344,7 +363,7 @@ nav ul li {
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-    border: 1px solid;
+    border: 1px solid #E0E3EB;
 
 
 }
@@ -352,46 +371,48 @@ nav ul li {
 .div1 .lione {
 
     background-color: #D1FAE5;
-    color: #10B981;
-    padding: 8px 1px;
+    padding: 10px 1px;
     border-radius: 32px;
 
 }
-
+ 
 .div2 {
-    display: flex;
-    column-gap: 50px;
-    justify-content: center;
+    
+    width: 1200px;
+   
 }
 
-.div2 > div {
+.div2 >div {
     height: 520px;
     width: 380px;
     margin-top: 35px;
-   position: relative;
+    position: relative;
+    column-gap: 60px;
+   
 
 }
 
-.div2> div img {
+.div2>div img {
     width: 340px;
     height: 382px;
     border-radius: 24px;
 }
 
-.div2 h3 {
+.mySlides div h3 {
     width: 340px;
-    height: 12px;
-    font-weight: 500px;
-    font-size: 24px;
+    height: 30px;
+    line-height: 32px;
+    font-weight: px;
+    font-size: 20px;
     font-family: 'Lexend';
     color: #0E1735;
 }
 
-.div2 h4 {
+.mySlides div h4 {
     width: 340px;
     height: 12px;
     font-weight: 500px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Lexend';
     color: #3C4563;
 }
@@ -431,20 +452,7 @@ nav ul li {
     height: 40px;
 }
 
-.div2 h2 {
-    position: absolute;
-    display: inline-block;
-    margin-top: 320px;
-    font-size: 17px;
-    margin-left: 30px;
-    color: #EF4444;
-    background-color: #FEE2E2;
-    border-radius: 32px;
-    height: 34px;
-    width: 111px;
-
-}
-
+ 
 /* ************section two ************** */
 
 .section-two {
@@ -458,15 +466,16 @@ nav ul li {
 .section-two .div-one {
     height: 580px;
     width: 600px;
- display: inline-block;
- margin-right: 30px;
+    display: inline-block;
+    margin-right: 30px;
 
-    
+
 }
+
 .section-two .div-two {
     height: 580px;
     width: 600px;
-    margin-left: 15px;
+
 }
 
 
@@ -526,22 +535,24 @@ nav ul li {
 .div-one span {
     margin-top: 50px;
 }
-.divcall{
+
+.divcall {
     display: flex;
     justify-content: space-between;
 }
-.sellspan{
+
+.sellspan {
     display: flex;
-    
+
 }
 
 .div-one .nimg {
-    
+
     width: 32px;
     height: 32px;
     margin-top: 30px;
     margin-left: 41px;
-    
+
 }
 
 .div-one label {
@@ -552,8 +563,8 @@ nav ul li {
     color: #888B97;
     margin-left: 20px;
 }
- 
- .btndiv{
+
+.btndiv {
     margin-top: 30px;
     width: 163px;
     height: 48px;
@@ -562,27 +573,29 @@ nav ul li {
     background-color: #10B981;
     margin-right: 90px;
 
- }
- .callbtn div span{
+}
+
+.callbtn div span {
     width: 1px;
     height: 18px;
     font-weight: 600;
     font-size: 14px;
     margin-left: px;
-  
-    color: #ffff ;
- }
- .callbtn div i{
+
+    color: #ffff;
+}
+
+.callbtn div i {
     color: #FFFFFF;
     height: 24px;
     width: 24px;
     margin-left: 20px;
     margin-top: 20px;
- }
+}
 
 .section-two .div-two {
     position: relative;
-    
+
 }
 
 .section-two .div-two img {
@@ -609,7 +622,8 @@ nav ul li {
     margin-top: 378px;
     margin-left: 410px;
 }
-.redeffect{
+
+.redeffect {
     position: absolute;
     margin-left: 1350px;
     margin-top: -230px;
@@ -620,11 +634,12 @@ nav ul li {
 
 .section-three {
     margin-top: 50px;
-   
-}
- 
 
-.section-three .ptitle{
+
+}
+
+
+.section-three .ptitle {
     height: 18px;
     font-weight: 500;
     font-size: 14px;
@@ -644,11 +659,10 @@ nav ul li {
 
 .review1 {
     position: relative;
-    display: flex;
-    justify-content: center;
     height: 400px;
     width: 740px;
     margin: 0 auto;
+    column-gap: 60px;
     background-image: url("image/Rectangle\ 21.png");
 
 }
@@ -664,11 +678,11 @@ nav ul li {
 }
 
 .childDiv h3 {
-width: 548px;
-height: 25px;
-font-weight: 600;
-font-size: 20px;
-color: #1B1C57;
+    width: 548px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B1C57;
 
 }
 
@@ -681,34 +695,37 @@ color: #1B1C57;
     color: #626687;
 }
 
-.profileStar  {
+.profileStar {
     display: flex;
     justify-content: space-between;
 }
 
- 
 
-.profilespan  {
+
+.profilespan {
     display: flex;
-   
+
 }
-.profilespan img{
+
+.profilespan img {
     width: 40px;
     height: 40px;
     margin-top: 30px;
 }
-.profilespan h5{
+
+.profilespan h5 {
     margin-left: 15px;
 }
 
-.profilespan p{
+.profilespan p {
     margin-left: 15px;
 }
 
-.starspan{
+.starspan {
     display: flex;
 }
-.starspan i{
+
+.starspan i {
     margin-top: 15px;
     margin-left: -50px;
     padding: 0 9px;
@@ -717,12 +734,13 @@ color: #1B1C57;
 
 /* ***********section four************ */
 
-.section-four{
+.section-four {
     width: 1200px;
     height: 550px;
     margin: 300px auto;
 }
-.section-four .ptag{
+
+.section-four .ptag {
     width: 275px;
     height: 18px;
     font-weight: 500;
@@ -730,9 +748,10 @@ color: #1B1C57;
     color: #F59E0B;
     line-height: 17px;
     margin: 0 auto;
-  
+
 }
-.section-four h3{
+
+.section-four h3 {
     width: 422px;
     height: 80px;
     font-weight: 600;
@@ -741,40 +760,46 @@ color: #1B1C57;
     line-height: 40px;
     margin: 0 auto;
 }
-.section-four span{
+
+.section-four span {
     display: flex;
     justify-content: center;
 }
-.section-four span h5{
+
+.section-four span h5 {
     display: flex;
     height: 46px;
     width: 118px;
-   color:#FFFFFF;
+    color: #FFFFFF;
     border-radius: 32px;
     background-color: #10B981;
     align-items: center;
     justify-content: center;
 }
-.parentlistdiv> div{
+
+.parentlistdiv>div {
     width: 600px;
     height: 700px;
-    border: 1px ;
+    border: 1px;
 }
-.parentlistdiv{
+
+.parentlistdiv {
     display: flex;
 }
 
-.listdiv1 > div{
+.listdiv1>div {
     display: flex;
     margin-top: 20px;
 }
-.listchild1 div img{
-    width:200px;
+
+.listchild1 div img {
+    width: 200px;
     height: 144px;
-     
-    
+
+
 }
-.listchild1 div p{
+
+.listchild1 div p {
     width: 340px;
     height: 64px;
     font-weight: 500;
@@ -783,31 +808,35 @@ color: #1B1C57;
     color: #1B1C57;
     margin-left: 15px;
 }
-.listchild1 div .pdate{
+
+.listchild1 div .pdate {
     width: 304px;
     height: 10px;
     font-size: 14px;
     color: #888B97;
 }
-.listchild1 .biospan img{
+
+.listchild1 .biospan img {
     width: 32px;
     height: 32px;
     margin-left: -180px;
 }
-.biospan label{
-  
+
+.biospan label {
+
     font-size: 14px;
     margin-left: 10px;
     color: #3C4563;
 }
 
-.listdiv2 span img{
+.listdiv2 span img {
     height: 52px;
     width: 52px;
     margin-left: -60px;
-    
+
 }
-.listdiv2 span p{
+
+.listdiv2 span p {
     width: 512px;
     height: 22px;
     font-weight: 400;
@@ -815,14 +844,16 @@ color: #1B1C57;
     margin-top: 10px;
     margin-left: -5px;
 }
-.listdiv2 img{
+
+.listdiv2 img {
     display: block;
     width: 560px;
     height: 280px;
     border-radius: 16px;
 
 }
-.listdiv2 h2{
+
+.listdiv2 h2 {
     width: 560px;
     height: 32px;
     font-weight: 500;
@@ -830,7 +861,8 @@ color: #1B1C57;
     line-height: 32px;
     color: #1B1C57;
 }
-.listdiv2 .para{
+
+.listdiv2 .para {
     width: 560px;
     height: 48px;
     opacity: 75%;
@@ -841,66 +873,75 @@ color: #1B1C57;
     color: #888B97;
 
 }
-.listdiv2 .datespan{
+
+.listdiv2 .datespan {
     margin-left: -80px;
-    color:#888B97 ;
+    color: #888B97;
 }
-.middleeffect{
+
+.middleeffect {
     position: absolute;
-width: 438px;
-height: 494px;
-margin-top: -100px;
-margin-left: -350px;
-opacity: 80%;
+    width: 438px;
+    height: 494px;
+    margin-top: -100px;
+    margin-left: -350px;
+    opacity: 80%;
 }
-.middleeffect2{
+
+.middleeffect2 {
     position: absolute;
     margin-top: 50px;
     margin-left: -350px;
-    opacity: 70%;;
+    opacity: 70%;
+    ;
 }
 
 /* **************section five************** */
 
-.section-five .subscribediv{
+.section-five .subscribediv {
     width: 1200px;
     height: 312px;
     margin: 0 auto;
     display: flex;
 
-background-image: url('image/Rectangle\ 24.png');
+    background-image: url('image/Rectangle\ 24.png');
 }
-.subscribediv .diva{
-    
+
+.subscribediv .diva {
+
     width: 350px;
     height: 312px;
 }
-.subscribediv .divb{
-    
+
+.subscribediv .divb {
+
     width: 500px;
     height: 312px;
 }
-.subscribediv .divc{
-    
+
+.subscribediv .divc {
+
     width: 350px;
     height: 312px;
 }
-.diva .img1{
+
+.diva .img1 {
     margin-top: 38px;
     margin-left: 44px;
 }
-.subscribediv .diva .img3{
+
+.subscribediv .diva .img3 {
     margin-left: 60px;
     margin-top: 50px;
     margin-right: 90px;
 }
-.diva .img2{
+
+.diva .img2 {
     margin-left: 40px;
     margin-right: 0px
-
 }
 
-.divb h2{
+.divb h2 {
     width: 420px;
     height: 96px;
     font-weight: 600;
@@ -909,13 +950,14 @@ background-image: url('image/Rectangle\ 24.png');
     color: #1B1C57;
 }
 
-.Subscribebar{
+.Subscribebar {
     width: 490px;
     height: 54px;
     border-radius: 32px;
     background-color: #FFFFFF;
 }
-.Subscribebar .spannow{
+
+.Subscribebar .spannow {
     width: 129px;
     height: 49px;
     border-radius: 32px;
@@ -924,62 +966,72 @@ background-image: url('image/Rectangle\ 24.png');
     float: right;
     background-color: #10B981;
 }
-.spannow p{
+
+.spannow p {
     text-align: center;
-    
+
     font-weight: 600;
     font-size: 13px;
     color: #FFFFFF;
 }
-.spansearch i{
-    margin-left: 30px;
-     color: #3B82F6;
-}
-.Subscribebar input[type=text]{
-margin-left: 10px;
-margin-top: 20px;
-border: none;
-}
- 
 
-.divc .img5{
+.spansearch i {
+    margin-left: 30px;
+    color: #3B82F6;
+}
+
+.Subscribebar input[type=text] {
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+.divc .img5 {
     margin-left: 35px;
 }
- .img6{
+
+.img6 {
     margin-left: 60px;
     margin-right: 50px;
     margin-top: 30px;
 }
-.divc .img7{
+
+.divc .img7 {
     margin-left: 35px;
     margin-right: 60px;
 }
+
 /* **************footer*********** */
- 
-.divfooter{
+
+.divfooter {
     display: flex;
-    width:1200px ;
+    width: 1200px;
     height: 230px;
     margin-bottom: 0px;
     font-family: 'lexend';
     margin-top: 70px;
     margin: 100px auto;
-   
+
 }
 
-.divfooter .footerdiv1{
+.divfooter .footerdiv1 {
     width: 400px;
 }
-.divfooter .footerdiv2{
+
+.divfooter .footerdiv2 {
     width: 266px;
 }
-.divfooter .footerdiv3{
+
+.divfooter .footerdiv3 {
     width: 266px;
 }
-.divfooter .footerdiv4{
+
+.divfooter .footerdiv4 {
     width: 266px;
 }
-.footerdiv1 p{
+
+.footerdiv1 p {
     width: 300px;
     height: 72px;
     opacity: 75%;
@@ -988,31 +1040,85 @@ border: none;
     line-height: 24px;
     color: #626687;
 }
-.footerdiv1 i{
+
+.footerdiv1 i {
     width: 42px;
     height: 42px;
     padding: 5px;
     color: #3C4563;
 }
-.divfooter h3{
+
+.divfooter h3 {
     font-weight: 600;
     color: #0E1735;
     font-size: 18px;
 }
-.divfooter p{
+
+.divfooter p {
     color: #888B97;
     font-size: 14px;
 
 }
-.bottomeffect1{
+
+.bottomeffect1 {
     position: absolute;
     margin-left: 810px;
     float: right;
     margin-top: -110px;
 
 }
-.bottomeffect2{
+
+.bottomeffect2 {
     position: absolute;
-    margin-left:1140px ;
+    margin-left: 1140px;
     margin-top: -170px;
 }
+
+/* slide show  */
+
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+   
+}
+
+ 
+.prev,
+.next {
+    cursor: pointer;
+
+    width: auto;
+    padding: 16px;
+    background-color: #E0E3EB;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 32px;
+    margin-left: 30px;
+    color: #3C4563;
+};
+}
+
+.next {}
+
+.prev:hover, .next:hover {
+    background-color:#10B981;
+  }
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* auto slide */
