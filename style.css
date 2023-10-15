@@ -79,11 +79,11 @@ nav ul {
     display: flex;
     width: 720px;
     height: 720px;
-    margin-left: 150px;
+    margin-left: 120px;
     background-image: url('image/image6.png');
 
 }
-
+ 
 .firstdiv .minidiv {
     width: 300px;
     height: 104px;
@@ -199,7 +199,7 @@ nav ul li {
     height: Hug (34px);
     padding: 8px, 16px, 8px, 16px;
     border-radius: 32px;
-    gap: 10px;
+    
     margin-left: 15px;
 
 }
@@ -272,11 +272,11 @@ nav ul li {
 
 .locsearch input[type=text] {
     width: 260px;
-    height: 20px;
+    height: 35px;
     font-weight: 500;
     color: #888B97;
     font-size: 14px;
-    margin-top: 17px;
+    margin-top: 10px;
     border-radius: 32px;
     margin-left: 20px;
     border: none;
@@ -305,11 +305,13 @@ nav ul li {
     font-size: 14px;
     line-height: 32px;
     color: #888B97;
+    margin-left: 5px;
 }
 
 .seconddiv img {
 
     padding: 15px;
+    margin-left: -10px;
 }
 
 /* ************section one *********** */
@@ -375,20 +377,19 @@ nav ul li {
     border-radius: 32px;
 
 }
- 
+
 .div2 {
-    
+
     width: 1200px;
-   
+
 }
 
-.div2 >div {
+.div2>div {
     height: 520px;
     width: 380px;
     margin-top: 35px;
     position: relative;
     column-gap: 60px;
-   
 
 }
 
@@ -408,6 +409,7 @@ nav ul li {
     color: #0E1735;
 }
 
+ 
 .mySlides div h4 {
     width: 340px;
     height: 12px;
@@ -452,7 +454,7 @@ nav ul li {
     height: 40px;
 }
 
- 
+
 /* ************section two ************** */
 
 .section-two {
@@ -466,7 +468,7 @@ nav ul li {
 .section-two .div-one {
     height: 580px;
     width: 600px;
-    display: inline-block;
+
     margin-right: 30px;
 
 
@@ -512,13 +514,13 @@ nav ul li {
     font-family: 'Lexend';
     font-size: 16px;
     color: #1B1C57;
-    margin-left: 20px;
+
 }
 
 .section-two .div-one img {
     width: 32px;
     height: 32px;
-    margin-left: -10px;
+    margin-left: -1px;
 }
 
 .section-two .div-one h5 {
@@ -539,6 +541,10 @@ nav ul li {
 .divcall {
     display: flex;
     justify-content: space-between;
+}
+
+.divcall div h4 {
+    margin-left: 20px;
 }
 
 .sellspan {
@@ -576,12 +582,10 @@ nav ul li {
 }
 
 .callbtn div span {
-    width: 1px;
     height: 18px;
     font-weight: 600;
     font-size: 14px;
-    margin-left: px;
-
+    margin-top: -7px;
     color: #ffff;
 }
 
@@ -590,7 +594,7 @@ nav ul li {
     height: 24px;
     width: 24px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 17px;
 }
 
 .section-two .div-two {
@@ -634,6 +638,8 @@ nav ul li {
 
 .section-three {
     margin-top: 50px;
+    height: 800px;
+    width: 100vw;
 
 
 }
@@ -649,25 +655,82 @@ nav ul li {
 }
 
 .section-three h2 {
-    height: 40px;
+    height: 20px;
     font-weight: 600;
     font-size: 32px;
     font-family: 'Lexend';
     text-align: center;
     color: #1B1C57;
+
+}
+
+.mySlides2{
+    width: 100vw;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    column-gap: 30px;
+    
 }
 
 .review1 {
     position: relative;
     height: 400px;
     width: 740px;
-    margin: 0 auto;
-    column-gap: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
     background-image: url("image/Rectangle\ 21.png");
 
 }
 
+.review2 {
+    position: relative;
+    height: 400px;
+    width: 740px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url("image/Rectangle\ 211.png");
+
+}
+
+.review3 {
+    position: relative;
+    height: 400px;
+    width: 740px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-image: url("image/Rectangle\ 221.png");
+
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
 .childDiv {
+    position: absolute;
+    height: 250px;
+    width: 500px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+    bottom: -190px;
+    margin-left: 20px;
+}
+
+.childdiv2 {
     position: absolute;
     height: 250px;
     width: 612px;
@@ -675,6 +738,8 @@ nav ul li {
     background-color: #fff;
     border-radius: 16px;
     bottom: -190px;
+    margin-left: 20px;
+
 }
 
 .childDiv h3 {
@@ -686,8 +751,9 @@ nav ul li {
 
 }
 
+
 .childDiv p {
-    width: 548px;
+    width: 488px;
     height: 72px;
     opacity: 75%;
     font-size: 14px;
@@ -727,7 +793,7 @@ nav ul li {
 
 .starspan i {
     margin-top: 15px;
-    margin-left: -50px;
+    margin-left: -90px;
     padding: 0 9px;
     color: #F59E0B;
 }
@@ -737,7 +803,7 @@ nav ul li {
 .section-four {
     width: 1200px;
     height: 550px;
-    margin: 300px auto;
+    margin: 200px auto;
 }
 
 .section-four .ptag {
@@ -759,6 +825,7 @@ nav ul li {
     color: #1B1C57;
     line-height: 40px;
     margin: 0 auto;
+
 }
 
 .section-four span {
@@ -780,7 +847,7 @@ nav ul li {
 .parentlistdiv>div {
     width: 600px;
     height: 700px;
-    border: 1px;
+
 }
 
 .parentlistdiv {
@@ -796,7 +863,6 @@ nav ul li {
     width: 200px;
     height: 144px;
 
-
 }
 
 .listchild1 div p {
@@ -806,7 +872,7 @@ nav ul li {
     font-size: 18px;
     line-height: 20px;
     color: #1B1C57;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .listchild1 div .pdate {
@@ -814,12 +880,13 @@ nav ul li {
     height: 10px;
     font-size: 14px;
     color: #888B97;
+    margin-top: -15px;
 }
 
 .listchild1 .biospan img {
     width: 32px;
     height: 32px;
-    margin-left: -180px;
+    margin-left: -150px;
 }
 
 .biospan label {
@@ -1080,10 +1147,10 @@ nav ul li {
     max-width: 1200px;
     position: relative;
     margin: auto;
-   
+
 }
 
- 
+
 .prev,
 .next {
     cursor: pointer;
@@ -1096,15 +1163,12 @@ nav ul li {
     border-radius: 32px;
     margin-left: 30px;
     color: #3C4563;
-};
 }
 
-.next {}
-
-.prev:hover, .next:hover {
-    background-color:#10B981;
-  }
-
+.prev:hover,
+.next:hover {
+    background-color: #10B981;
+}
 
 .fade {
     animation-name: fade;
